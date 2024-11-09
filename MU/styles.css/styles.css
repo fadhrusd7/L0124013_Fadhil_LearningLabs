@@ -1,0 +1,43 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header h1 {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Hero Section */
+.hero {
+    padding: 3rem 0;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+}
+
+.stadium-image {
+    height: 400px;
+    background: linear-gradient(rgb(254, 254, 254), rgb(255, 255, 255)),
+    url('c:\Users\LENOVO\OneDrive\Desktop\MU\images\united fans.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+/* Cards */
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .stadium-image {
+        height: 200px;
+    }
+}
